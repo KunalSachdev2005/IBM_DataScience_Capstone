@@ -106,33 +106,42 @@ SpaceX’s innovative reusable rocket technology significantly reduces launch co
 
 - **Key Findings**:
   - The greater the number of flights at a launch site, the greater the success rate at the launch site.
+    
     ![Flight Number vs. Launch Site Scatter Plot](./images/scatter1.png)
     
   - ES-L1, GEO, HEO, and SSO orbits have the highest success rate.
+    
     ![Success Rate vs. Orbit Type Bar chart](./images/bar.png)
     
   - For heavier payloads, success rate increases for LEO, ISS, and Polar orbits.
+    
     ![Payload vs. Orbit Type Scatter Plot](./images/scatter2.png)
     
   - Launch success rate increased from 2013 to 2020 with minor fluctuations throughout the period.
+    
     ![Launch Success Yearly Trend Line Chart](./images/line.png)
     
   - Launch Site KDC LC-39 A has the greatest launch success rate.
+    
     ![Pie Chart of Total Success Launches by all Sites](./images/dashboard_pie.png)
     
   - Success Rate for Heavier Payload is lesser than that for Lighter Payload.
+    
     ![Success Rate vs. Payload](./images/dashboard_scatter.png)
     
   - Launch Site Proximity to Coastline, Highways, Railways, and Cities.
+    
     ![Launch Site Proximity from Landmarks](./images/launch_site_proximities.png)
     
   - The Decision Tree Classifier is the best machine learning algorithm to predict SpaceX Falcon 9 rocket’s first stage will land successfully.
+    
     ![Model Scores](./images/model_scores.png)
 
 - **Best Model**:
   - Decision Tree Classifier with an accuracy of 87.5%.
  
-  - The confusion matrix for the Decision Tree Classifier shows that the classifiers gives a high number of false positives, i.e., the rocket did not actually land successfully but the classifiers predicts that it landed successfully
+  - The confusion matrix for the Decision Tree Classifier shows that the classifiers gives a high number of false positives, i.e., the rocket did not actually land successfully but the classifiers predicts that it landed successfully.
+    
     ![Model Scores](./images/confusion_matrix.png)
 
 
