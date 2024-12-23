@@ -16,6 +16,7 @@ This project is the culmination of a six-month IBM Data Science Specialization. 
 6. [Technologies Used](#technologies-used)
 7. [Results](#results)
 8. [Acknowledgments](#acknowledgments)
+9. [Course Certificates](#course-certificates)
 
 ---
 
@@ -104,12 +105,29 @@ SpaceX’s innovative reusable rocket technology significantly reduces launch co
 ## Results
 
 - **Key Findings**:
-  - Higher payloads increase landing success rates for specific orbits.
-  - Certain launch sites exhibit consistently high success rates.
+  - The greater the number of flights at a launch site, the greater the success rate at the launch site.
+    - ![Flight Number vs. Launch Site Scatter Plot](./images/scatter1.png)
+  - ES-L1, GEO, HEO, and SSO orbits have the highest success rate.
+    - ![Success Rate vs. Orbit Type Bar chart](./images/bar.png)
+  - For heavier payloads, success rate increases for LEO, ISS, and Polar orbits.
+    - ![Payload vs. Orbit Type Scatter Plot](./images/scatter2.png)
+  - Launch success rate increased from 2013 to 2020 with minor fluctuations throughout the period.
+    - ![Launch Success Yearly Trend Line Chart](./images/line.png)
+  - Launch Site KDC LC-39 A has the greatest launch success rate.
+    - ![Pie Chart of Total Success Launches by all Sites](./images/dash_pie.png)
+  - Success Rate for Heavier Payload is lesser than that for Lighter Payload.
+    - ![Success Rate vs. Payload](./images/dash_scatter.png)
+  - Launch Site Proximity to Coastline, Highways, Railways, and Cities.
+    - ![Launch Site Proximity from Landmarks](./images/launch_site_proximities.png)
+  - The Decision Tree Classifier is the best machine learning algorithm to predict SpaceX Falcon 9 rocket’s first stage will land successfully.
+    - ![Model Scores](./images/model_scores.png)
+
 - **Best Model**:
   - Decision Tree Classifier with an accuracy of 87.5%.
+ 
+  - The confusion matrix for the Decision Tree Classifier shows that the classifiers gives a high number of false positives, i.e., the rocket did not actually land successfully but the classifiers predicts that it landed successfully
+     - ![Model Scores](./images/confusion_matrix.png)
 
-Insert confusion matrix and other key visualizations here.
 
 ---
 
@@ -120,4 +138,10 @@ This project was completed as part of the IBM Data Science Specialization. Speci
 For further questions, feel free to reach out or explore the repository.
 
 [Project Repository](https://github.com/KunalSachdev2005/IBM_DataScience_Capstone)
+
+---
+
+## Course Certificates
+
+You can view the certificates for the IBM Data Science Specialization [here](https://github.com/KunalSachdev2005/IBM_DataScience_Capstone/blob/main/IBM_Data_Science_Professional_Course_Certificates.pdf).
 
