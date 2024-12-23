@@ -131,7 +131,11 @@ SpaceX’s innovative reusable rocket technology significantly reduces launch co
  
   - The confusion matrix for the Decision Tree Classifier reveals that while the model demonstrates strong overall performance in predicting successful landings, it produces a notable number of false positives. This indicates that the model occasionally predicts the rocket landed successfully when, in fact, it did not.
  
-  - False positives are less critical than false negatives in this scenario, but they can lead to overestimating SpaceX's success rate, potentially resulting in misinformed decisions, such as overbidding or misallocating resources. On the other hand, false negatives - predicting a failure when the rocket actually lands - could discourage investment, reduce confidence in SpaceX’s capabilities, or lead to missed opportunities for competitors to challenge SpaceX effectively. While the model avoids false negatives, reducing false positives would still enhance its utility.
+  - False positives are less critical than false negatives in this scenario, but they can lead to overestimating SpaceX's success rate, potentially resulting in misinformed decisions, such as overbidding or misallocating resources.
+  
+  - On the other hand, false negatives - predicting a failure when the rocket actually lands - could discourage investment, reduce confidence in SpaceX’s capabilities, or lead to missed opportunities for competitors to challenge SpaceX effectively.
+  
+  - While the model avoids false negatives, reducing false positives would still enhance its utility.
     
     ![Model Scores](./images/confusion_matrix.png)
 
