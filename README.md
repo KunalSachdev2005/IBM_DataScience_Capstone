@@ -12,11 +12,10 @@ This project is the culmination of a six-month IBM Data Science Specialization. 
 2. [Getting Started](#getting-started)
 3. [File Descriptions](#file-descriptions)
 4. [Methodology](#methodology)
-5. [Key Features](#key-features)
-6. [Technologies Used](#technologies-used)
-7. [Results](#results)
-8. [Acknowledgments](#acknowledgments)
-9. [Course Certificates](#course-certificates)
+5. [Technologies Used](#technologies-used)
+6. [Results](#results)
+7. [Acknowledgments](#acknowledgments)
+8. [Course Certificates](#course-certificates)
 
 ---
 
@@ -77,14 +76,6 @@ SpaceX’s innovative reusable rocket technology significantly reduces launch co
    - Implemented Logistic Regression, KNN, SVM, and Decision Tree classifiers.
    - Tuned hyperparameters with GridSearchCV.
    - Achieved a classification accuracy of 87.5% using the Decision Tree classifier.
-
----
-
-## Key Features
-
-- **Interactive Dashboard**: Visualizes launch success rates and payload performance.
-- **Interactive Maps**: Displays launch site data with proximities to landmarks.
-- **Predictive Analysis**: Identifies key factors influencing landing outcomes.
 
 ---
 
