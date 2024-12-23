@@ -42,7 +42,7 @@ SpaceX’s innovative reusable rocket technology significantly reduces launch co
 | `Data_Collection_Web_Scraping.ipynb`                           | Collects data via web scraping from Wikipedia.                                         |
 | `Data_Wrangling.ipynb`                                         | Cleans and processes the collected data.                                               |
 | `EDA_DataViz.ipynb`                                            | Performs exploratory data analysis (EDA) using visualization tools.                    |
-| `EDA_SQL_SQLite.ipynb`                                         | Conducts EDA with SQL queries on launch data.                                          |
+| `EDA_SQL_SQLite.ipynb`                                         | Conducts EDA with SQL queries using SQLite and IBM Db2 on launch data.                 |
 | `Launch_Sites_Locations_Analysis_Folium.ipynb`                 | Analyzes launch site locations using interactive maps with Folium.                     |
 | `ML_Models.ipynb`                                              | Implements machine learning models to predict landing success.                         |
 | `Project_Presentation_Data_Science_Capstone_Kunal_Sachdev.pdf` | Final project presentation summarizing findings and results.                           |
@@ -64,7 +64,8 @@ SpaceX’s innovative reusable rocket technology significantly reduces launch co
 3. **Exploratory Data Analysis (EDA)**
 
    - Conducted statistical and visual analysis to identify trends and insights.
-   - Used SQL and visualization tools like Matplotlib and Seaborn.
+   - Performed SQL-based EDA using IBM Db2 to query and analyze launch data effectively.
+   - Used visualization tools like Matplotlib and Seaborn.
 
 4. **Interactive Visualizations**
 
@@ -90,7 +91,7 @@ SpaceX’s innovative reusable rocket technology significantly reduces launch co
 ## Technologies Used
 
 - **Data Collection**: `requests`, `BeautifulSoup`
-- **Data Analysis**: `Pandas`, `NumPy`, `sqlite3`
+- **Data Analysis**: `Pandas`, `NumPy`, `sqlite3`, `IBM Db2`
 - **Visualization**: `Matplotlib`, `Seaborn`, `Plotly`
 - **Interactive Tools**: `Dash`, `Folium`
 - **Machine Learning**: `Scikit-learn`
