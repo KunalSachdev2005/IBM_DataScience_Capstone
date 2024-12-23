@@ -126,6 +126,8 @@ SpaceX’s innovative reusable rocket technology significantly reduces launch co
 
 - **Best Model**:
   - Decision Tree Classifier with an accuracy of 87.5%.
+
+- **Confusion Matrix Interpretation**:
  
   - The confusion matrix for the Decision Tree Classifier reveals that while the model demonstrates strong overall performance in predicting successful landings, it produces a notable number of false positives. This indicates that the model occasionally predicts the rocket landed successfully when, in fact, it did not.
  
