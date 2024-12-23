@@ -85,11 +85,6 @@ SpaceX’s innovative reusable rocket technology significantly reduces launch co
 - **Interactive Maps**: Displays launch site data with proximities to landmarks.
 - **Predictive Analysis**: Identifies key factors influencing landing outcomes.
 
-### Suggested Image Placement
-
-- Insert screenshots of the dashboard, including pie charts and scatter plots, here.
-- Insert images of the Folium map with launch site markers and success rates.
-
 ---
 
 ## Technologies Used
